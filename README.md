@@ -1,5 +1,5 @@
 # pokedex 
-<img source = "https://raw.githubuserco…e/animated/shiny/384.gif">
+<img source = "384.gif">
 
 Projeto de site que replica uma pokedex usando uma api para procurar e exibir os pokemos.
 
