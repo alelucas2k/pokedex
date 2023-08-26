@@ -2,7 +2,7 @@ const pokemonList = document.getElementById('pokemonList')
 const loadMore = document.getElementById('loadMore')
 
 //qtd de pokemons da primeira geração
-const maxRecords = 151
+const maxRecords = 1080
 //parametros de controle da quantidade de pokemons puxados na api
 const limit = 10
 let offset = 0
