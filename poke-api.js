@@ -11,7 +11,9 @@ function pokeapiTopokemon(pokemonDetails){
 
     pokemon.types = types
     pokemon.type = type
-    pokemon.photo = pokemonDetails.sprites.other.dream_world.front_default
+    /* pokemon.photo = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonDetails.id}.gif` */
+    pokemon.photo = pokemonDetails.sprites.versions['generation-v']['black-white'].animated.front_default
+    /* pokemon.photo = pokemonDetails.sprites.other.dream_world.front_default */
 
     return pokemon
 }
